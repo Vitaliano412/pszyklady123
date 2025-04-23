@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url(https://i0.wp.com/www.spacefungame.com/wp-content/uploads/2024/05/team-game.jpg?resize=800%2C417&ssl=1) no-repeat center center;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.app {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  background: url(https://thumbs.dreamstime.com/b/gaming-neon-signs-set-design-template-big-collection-game-signs-neon-light-banner-design-element-colorful-modern-design-trend-152920947.jpg) center/cover no-repeat;
+  border: 5px solid red;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); 
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+
+
+.flower-img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+
+
+.formulas-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #90ee90;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5); 
+}
+
+.formulas-card li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.multiplication-card {
+  background: url(https://m.media-amazon.com/images/I/81wkdBFLTZL.jpg) no-repeat left center;
+  background-size: cover;
+  border: 3px solid #7fffd4;
+  border-radius: 10px;
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.multiplication-text {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 15px 0 0 15px;
+  font-family: 'Courier New', monospace;
+  height: fit-content;
+  max-height: 100%;
+  overflow-y: auto;
+  box-shadow: -5px 0 15px rgba(0, 0, 255, 0.2); }
