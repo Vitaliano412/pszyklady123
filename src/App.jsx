@@ -1,19 +1,7 @@
-
-import './App.css'
-
-function App() {
-
-  return (
-    <>
-     
-    </>
-  )
-}
-
-export default App
+import "./App.css";
 
 function App() {
-  const m_komp = 1;
+  const m_komp = 3;
 
   let wyn1 = m_komp * 1;
   let wyn2 = m_komp * 2;
@@ -28,43 +16,45 @@ function App() {
 
   let x = 2;
   let y = 3;
-  
 
-  let f1 = 1 * x * x * x + z - 1 * y;
+  let f1 = 1 * x * x * x + - 1 * y;
   let f2 = 2 * x * x + y * y - 4 * y * y;
   let f3 = 3 * y * y - 1 * x * x - 7 * y;
   let f4 = 2 * x * y + 1 * x * y;
-  let f5 = 3 * x * x + 1 * y + z;
+  let f5 = 3 * x * x + 1 * y;
 
+  return (
     <div className="app">
       <div className="header">
         <h1>Komputer numer - {m_komp}</h1>
       </div>
 
       <div className="multiplication-card">
-  <div className="multiplication-text">
-    <p>1 × 1 = {wyn1}</p>
-    <p>1 × 2 = {wyn2}</p>
-    <p>1 × 3 = {wyn3}</p>
-    <p>1 × 4 = {wyn4}</p>
-    <p>1 × 5 = {wyn5}</p>
-    <p>1 × 6 = {wyn6}</p>
-    <p>1 × 7 = {wyn7}</p>
-    <p>1 × 8 = {wyn8}</p>
-    <p>1 × 9 = {wyn9}</p>
-    <p>1 × 10 = {wyn10}</p>
-  </div>
-</div>
-
-
+        <div className="multiplication-text">
+          <p>2 × 1 = {wyn1}</p>
+          <p>2 × 2 = {wyn2}</p>
+          <p>2 × 3 = {wyn3}</p>
+          <p>2 × 4 = {wyn4}</p>
+          <p>2 × 5 = {wyn5}</p>
+          <p>2 × 6 = {wyn6}</p>
+          <p>2 × 7 = {wyn7}</p>
+          <p>2 × 8 = {wyn8}</p>
+          <p>2 × 9 = {wyn9}</p>
+          <p>2 × 10 = {wyn10}</p>
+        </div>
+      </div>
+<br />
       <div className="formulas-card">
         <ul>
-          <li>7x³ +  - 7y = {f1}</li>
+          <li>7x³ + - 7y = {f1}</li>
           <li>2x² + y² - 4y² = {f2}</li>
           <li>3y² - 7x² - 7y = {f3}</li>
           <li>2xy + 7xy = {f4}</li>
-          <li>3x² + 7y + z = {f5}</li>
+          <li>3x² + 7y = {f5}</li>
         </ul>
       </div>
     </div>
+  );
 }
+
+export default App;

@@ -16,7 +16,7 @@ body {
 }
 
 .header {
-  background: url(https://thumbs.dreamstime.com/b/gaming-neon-signs-set-design-template-big-collection-game-signs-neon-light-banner-design-element-colorful-modern-design-trend-152920947.jpg) center/cover no-repeat;
+  background: url() center/cover no-repeat;
   border: 5px solid red;
   border-radius: 15px;
   padding: 20px;
@@ -44,7 +44,7 @@ body {
 
 
 .formulas-card {
-  background-color: rgba(255, 255, 255, 0.8);
+  
   border: 3px solid #90ee90;
   border-radius: 10px;
   padding: 20px;
@@ -56,26 +56,27 @@ body {
   font-size: 1.1rem;
 }
 .multiplication-card {
-  background: url(https://m.media-amazon.com/images/I/81wkdBFLTZL.jpg) no-repeat left center;
+  background: url() no-repeat left center;
   background-size: cover;
   border: 3px solid #7fffd4;
   border-radius: 10px;
   padding: 20px;
   height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display:flexbox;
+
+  
   box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .multiplication-text {
-  background-color: rgba(255, 255, 255, 0.8);
+  
   padding: 10px 20px;
   border-radius: 15px 0 0 15px;
   font-family: 'Courier New', monospace;
   height: fit-content;
   max-height: 100%;
   overflow-y: auto;
-  box-shadow: -5px 0 15px rgba(0, 0, 255, 0.2); }
+  box-shadow: -5px 0 15px rgba(0, 0, 255, 0.2);
+}
